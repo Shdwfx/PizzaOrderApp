@@ -49,6 +49,8 @@ namespace PizzaOrderApp
                 price = price + 2;
             }
 
+
+            // bu app'te basitçe, hangi radio buttonlar seçili ise price'i güncelledim. Sonrasında string'e cast edip textBox1'e yazdırdım. Sonuna da "TL" 'yi string olarak ekledim.
             string priceInString = price.ToString();
 
             textBox1.Text = priceInString + " TL";
